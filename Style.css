@@ -1,0 +1,271 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #1a1d29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 25px 15px;
+}
+
+.main-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 680px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.header-card {
+  background-color: #114b8c;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header-card h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.header-card .subtitle {
+  font-size: 13px;
+  color: #b0c4de;
+  margin-bottom: 18px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.section-title {
+  color: #114b8c;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.profile-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.about-text p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.highlight {
+  color: #114b8c;
+  font-weight: bold;
+}
+
+.btn-github {
+  display: inline-block;
+  background-color: #114b8c;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 11px;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.btn-github:hover {
+  background-color: #0d3b6f;
+}
+
+.section-subtitle {
+  font-size: 11px;
+  color: #718096;
+  margin-bottom: 14px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.skill-card {
+  background-color: #f8fafc;
+  border: 1px solid #edf2f7;
+  border-radius: 8px;
+  padding: 12px 10px;
+}
+
+.skill-card h3 {
+  color: #114b8c;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.skill-card p {
+  font-size: 10px;
+  color: #718096;
+  line-height: 1.4;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.experience-item {
+  background-color: #f8fafc;
+  border-left: 3px solid #114b8c;
+  border-radius: 6px;
+  padding: 14px;
+  display: flex;
+  gap: 12px;
+}
+
+.exp-icon {
+  width: 38px;
+  height: 38px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 18px;
+}
+
+.exp-details h3 {
+  font-size: 13px;
+  color: #2d3748;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.exp-details .company {
+  font-size: 11px;
+  color: #114b8c;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.exp-details .date {
+  font-size: 10px;
+  color: #a0aec0;
+  margin-bottom: 6px;
+}
+
+.exp-details .desc {
+  font-size: 11px;
+  color: #4a5568;
+  line-height: 1.4;
+}
+
+.contact-card {
+  background-color: #114b8c;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.contact-card h2 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  font-size: 11px;
+  color: #b0c4de;
+  margin-bottom: 14px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 11px;
+  transition: background-color 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-card {
+  background-color: #0b1d3a;
+  color: #a0aec0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.footer-card a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
